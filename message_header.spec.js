@@ -1,11 +1,7 @@
 import { describe, it, expect, jest } from "@jest/globals";
-import {
-  MessageHeader,
-  MessageTypes,
-  ServiceTypes,
-  MessageType,
-  ServiceType,
-} from "./message_header";
+import { MessageHeader } from "./message_header";
+import { ServiceTypes, ServiceType } from "./service_types";
+import { MessageTypes, MessageType } from "./message_types";
 
 describe("MessageHeader", () => {
   it("must correctly create a message header with the service and message types", () => {
