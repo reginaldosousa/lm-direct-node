@@ -1,0 +1,23 @@
+{
+  "name": "lm-direct",
+  "version": "0.0.1",
+  "description": "LM Direct parser for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest"
+  },
+  "keywords": [
+    "calamp",
+    "lm-direct",
+    "parser"
+  ],
+  "author": "Reginado Sousa <reginaldo.rms@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "smart-buffer": "^4.2.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
